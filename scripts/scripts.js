@@ -4,6 +4,34 @@
  * Purpose: Quiz form validation and answer checking
  */
 
+// Navbar Hamburger Menu Functionality
+// Show links in nav when hamburger menu is clicked
+function hamburgerMenu() {
+    var nav_links = document.getElementById("nav-links");
+    if (nav_links.style.display === "block") {
+        nav_links.style.display = "none";
+    } else {
+        nav_links.style.display = "block";
+    }
+}
+
+
+// Javascript Code for World War 1 Quiz
+// Reveal and hide quiz answers in the WWI page
+function revealAnswer(question_number) {
+    var answer = document.getElementById("ans-"+question_number);
+    var button = document.getElementById("btn-"+question_number);
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+        button.value = "Reveal Answer";
+    } else {
+        answer.style.display = "block";
+        button.value = "Hide Answer";
+    }
+}
+
+
+// JavaScript Code for Manifest Destiny Quiz
 // Correct answers for the quiz
 const correctAnswers = {
 	'coinedPhrase': 'O\'Sullivan',

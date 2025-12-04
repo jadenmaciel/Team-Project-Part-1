@@ -84,10 +84,19 @@ nav li a {
 }
 
 .menu-icon a {
-  display: block;
-  float: right;
+  display: inline-block;
   font-size: 1.25em;
-  padding: 0 10px;
+  height: 1.5em;
+  width: 1.5em;
+  background-color: cyan;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+/* Styles for WWI Page */
+.quiz-ans {
+  display: none;
 }
 
 /* Tablet Styles */
