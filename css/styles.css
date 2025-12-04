@@ -3,8 +3,6 @@ group: history team.
 date: 12/5/2025
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-
 /*css reset*/
 *, *::before, *::after {
   box-sizing: border-box;
@@ -21,7 +19,7 @@ date: 12/5/2025
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', serif;
 }
 img, picture, video, canvas, svg {
   display: block;
@@ -93,6 +91,30 @@ nav li a {
   text-align: center;
 }
 
+/* Styles for the Home Page */
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  column-gap: 2%;
+  place-items: center;
+}
+
+.grid-container a {
+  text-decoration: none;
+  align-self: center;
+}
+
+.grid-container img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-container figcaption {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
 
 /* Styles for WWI Page */
 .quiz-ans {
@@ -104,11 +126,27 @@ nav li a {
   .mobile {
     display: none;
   }
+  .tablet-desktop {
+    display: block;
+  }
+
+  /* Tablet Grid Styles */
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
 }
 
 /* Desktop Styles */
 @media screen and (min-width: 1015px) {
   .mobile {
     display: none;
+  }
+  .tablet-desktop {
+    display: block;
+  }
+
+  /* Tablet Grid Styles */
+  .grid-container {
+    grid-template-columns: auto auto auto;
   }
 }
