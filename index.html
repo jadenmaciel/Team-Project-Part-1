@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="scripts/scripts.js"></script>
 	<title>Historical Events Website - Home</title>
 </head>
 <body>
@@ -12,26 +14,25 @@
 	</header>
 
 	<nav>
-		<ul>
+		<div class="menu-icon"><a onclick="hamburgerMenu()">&#9776;</a></div>
+		<ul id="nav-links">
 			<li><a href="Bill-of-rights.html">Bill Of Rights</a></li>
 			<li><a href="Manifest_Destiny.html">Manifest Destiny</a></li>
 			<li><a href="World_War_1.html">World War 1</a></li>
 			<li><a href="Great_Depression.html">Great Depression</a></li>
 			<li><a href="World_War_2.html">World War 2</a></li>
 		</ul>
-		<a class="menu-icon">
-			<div>&#9776;</div>
-		</a>
 	</nav>
 
 	<main>
 		<section>
 			<h2>Historical Events</h2>
 			<ul>
-				<li><a href="Bill-of-rights.html">Bill of Rights</a></li>
-				<li><a href="Manifest_Destiny.html">Manifest Destiny</a></li>
-				<li><a href="World_War_1.html">World War I</a></li>
-				<li><a href="World_War_2.html">World War II</a></li>
+				<li><a href="Bill-of-rights.html"> <img src="images/bill of rights home..png" alt="my Face" width="200" height="200">Bill of Rights</a></li>
+				<li><a href="Manifest_Destiny.html"><img src="images/manifest-destiny.png" alt="my Face" width="200" height="200">Manifest Destiny</a></li>
+				<li><a href="World_War_1.html"><img src="images/wold war one home page.png" alt="my Face" width="200" height="200">World War I</a></li>
+				<li><a href="Great_Depression.html"><img src="images/great_depression.jpg" alt="my Face" width="200" height="200">Great Depression</a></li>
+				<li><a href="World_War_2.html"><img src="images/World_War_2.jpeg" alt="my Face" width="200" height="200">World War II</a></li>
 			</ul>
 		</section>
 
@@ -44,6 +45,52 @@
 				<li><a href="William-Barkers_pro.html">William Barker</a></li>
 			</ul>
 		</section>
+		
+        <h2>Give us your feedback!</h2>
+        <form class="the_table">
+            <fieldset>
+                <legend>User information</legend>
+                <label class="the_name"> Name</label>
+                <input type="text" id="name" placeholder="First and last Name"><br><br>
+                <label class="the_email"> Email</label>
+                <input type="email" id="email" placeholder="address@example.com"><br><br>
+                <label class="the_phone"> Phone </label>
+                <input id="phone" placeholder="(optional)"><br><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Visuals and Information</legend><br>
+                <select>
+                    <option>Very Good</option>
+                    <option>Good</option>
+                    <option>Mediocre</option>
+                    <option>Bad</option>
+					<option>Very Bad</option>
+                </select><br><br>
+            </fieldset><br>
+			
+			<fieldset>
+                <legend>More</legend><br>
+                <label> Want to see more of:</label><br><br>
+                <input type="checkbox"><label class="first">Details</label>
+                <input type="checkbox"><label class="second">Variety</label>
+                <input type="checkbox"><label class="third">Illustrations</label>
+                <input type="checkbox"><label>Interactability</label><br><br>
+            </fieldset><br>
+
+			
+            <fieldset>
+                <legend>Comments, Questions, Feedback</legend><br>
+                <label>General Feedback</label><br>
+                <textarea rows="5" cols="25"></textarea><br>
+                <input type="submit" class="the_button">
+            </fieldset>
+
+
+
+
+        </form>
+   
 	</main>
 
 	<footer>

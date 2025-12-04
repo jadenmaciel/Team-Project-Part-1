@@ -2,12 +2,14 @@
 group: history team.
 date: 12/5/2025
 */
+
 /*css reset*/
 *, *::before, *::after {
   box-sizing: border-box;
 }
 * {
   margin: 0;
+  padding: 0;
 }
 @media (prefers-reduced-motion: no-preference) {
   html {
@@ -37,3 +39,42 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/* Styles */
+
+/* Nav Styles */
+nav {
+  background-color: blue;
+}
+
+nav ul {
+  display: none;
+}
+
+nav li {
+  display: block;
+  background-color: lightblue;
+  border: 1px solid black;
+  list-style: none;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+  padding-left: 2%;
+}
+
+.menu-icon {
+  height: 2em;
+}
+
+.menu-icon a {
+  display: block;
+  float: right;
+  font-size: 1.25em;
+  padding: 0 10px;
+}
+
+/* Tablet Styles */
+
+/* Desktop Styles */
