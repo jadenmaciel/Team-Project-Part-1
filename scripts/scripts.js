@@ -110,7 +110,7 @@ function validateManifestDestinyQuiz(event) {
 	const resultsDiv = document.getElementById('quizResults');
 	resultsDiv.innerHTML = '<div class="alert alert-info"><strong>Your Score: ' + score + ' out of ' + totalQuestions + ' correct</strong></div>';
 
-	return true;
+	return false;
 }
 
 // Wait for page to load before running code
