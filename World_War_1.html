@@ -2,20 +2,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- HTML Basics -->
+    <title>World War 1</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>WWI</title>
+    <!-- External CSS and JavaScript -->
 	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="scripts/scripts.js"></script>
+    <!-- Font Import -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
 
     </header>
 
+    <!-- Standard Navbar-->
     <nav>
+        <!-- Hamburger Menu icon-->
 		<div class="menu-icon"><a onclick="hamburgerMenu()">&#9776;</a></div>
+
+        <!-- List of Nav Links -->
 		<ul id="nav-links">
 			<li><a href="Bill-of-rights.html">Bill Of Rights</a></li>
 			<li><a href="Manifest_Destiny.html">Manifest Destiny</a></li>
@@ -30,6 +37,7 @@
 
         <img src="images/wold war one 1 photo.png" alt="Political cartoon about Americas two-faced economy in WWI" width="500" height="500">
 
+        <!-- Information about America's involvement in WWI -->
         <article>
 
             <h2>Neutrality</h2>
@@ -58,23 +66,32 @@
             
         </article>
 
+        <!-- Horizontal Rule to create some page separation-->
         <hr>
 
+        <!-- Short, interactive knowledge check quiz -->
         <div id="quiz-container">
         
             <h2>Quiz</h2>
+            
+            <!-- Question 1 -->
             <h4>What caused the USA to enter World War 1?</h4>
             <p id="ans-1" class="quiz-ans">Germany's continued use of unrestricted submarine warfare and the discovery of the Zimmermann Telegram pushed the USA into the war</p>
-            <input type="button" id="btn-1" value="Reveal Answer" onclick="revealAnswer('1')">
+            <input class="quiz-btn" type="button" id="btn-1" value="Reveal Answer" onclick="revealAnswer('1')">
+            
+            <!-- Question 2 -->
             <h4>What happened to the US economy during the war?</h4>
             <p id="ans-2" class="quiz-ans">After an initial financial crisis and recession, the US war economy boomed and turned the USA into a global superpower</p>
-            <input type="button" id="btn-2" value="Reveal Answer" onclick="revealAnswer('2')">
+            <input class="quiz-btn" type="button" id="btn-2" value="Reveal Answer" onclick="revealAnswer('2')">
+            
+            <!-- Question 3 -->
             <h4>What role did the USA play in the Treaty of Versailles?</h4>
             <p id="ans-3" class="quiz-ans">The USA sought to promote international peace and build the League of Nations, getting a few of their terms into the treaty, but the Senate failed to ratify the treaty twice</p>
-            <input type="button" id="btn-3" value="Reveal Answer" onclick="revealAnswer('3')">
+            <input class="quiz-btn" type="button" id="btn-3" value="Reveal Answer" onclick="revealAnswer('3')">
         
         </div>
 
+        <!-- Sources used for the page information -->
         <h1>Sources</h1>
         <p><a href="https://www.theworldwar.org/learn/about-wwi/us-enters-war">https://www.theworldwar.org/learn/about-wwi/us-enters-war</a></p>
         <p><a href="https://history.state.gov/milestones/1914-1920/wwi">https://history.state.gov/milestones/1914-1920/wwi</a></p>
@@ -84,6 +101,7 @@
     </main>
 
     <footer>
+        <!-- Link to Jax's Portfolio -->
         <p>Page Created By: <a href="Jax_Resume.html">Jax Fordham</a></p>
     </footer>
 </body>
