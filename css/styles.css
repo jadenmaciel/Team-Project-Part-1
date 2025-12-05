@@ -87,10 +87,9 @@ img {
 
 /* Table Caption Styles for Great Depression Table */
 #Tablet-desktop table caption {
-  font-weight: bold;
-  font-size: 1.5em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  font-weight: bold !important;
+  font-size: 1.5em !important;
+  padding: 0.5em 0;
 }
 
 /* Social Media Icons */
@@ -359,5 +358,6 @@ nav li a {
   }
 
 }
+
 
 
