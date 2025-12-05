@@ -95,7 +95,7 @@ img {
 }
 
 /* Nav Styles */
-nav {
+nav:hover {
   background-color: #5A5555;
 }
 
@@ -332,40 +332,4 @@ nav li a {
     grid-template-columns: auto auto auto;
   }
 
-  /* CUSTOM STYLE 1: Add smooth hover transition effect on grid items */
-  .grid-container a {
-    transition: transform 0.3s ease, opacity 0.3s ease;
-  }
-
-  .grid-container a:hover {
-    transform: translateY(-5px);
-    opacity: 0.9;
-  }
-
-  /* CUSTOM STYLE 2: Increase spacing and add letter-spacing to headings for better readability */
-  h1 {
-    letter-spacing: 2px;
-    margin-bottom: 1.5rem;
-  }
-
-  h2 {
-    letter-spacing: 1px;
-    margin-top: 2rem;
-  }
-
-  /* CUSTOM STYLE 3: Add text shadow to navigation links for enhanced visibility */
-  nav li a {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-  }
-
-  /* CUSTOM STYLE 4: Increase body max-width and center for better readability on large screens */
-  body {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-
-  /* CUSTOM STYLE 5: Add subtle shadow to main content area for depth */
-  main {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  }
 }
