@@ -9,19 +9,41 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, intiial-scale=1.0">
-  	<h1 class="display-4">World War 2</h1>
-	<img src="images/World_War_2.jpeg" alt="WW2" class="jumbotron">
 	<title>World War 2</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="scripts/scripts.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
- 	<hr class="my-4">
-	
+
 </head>
 
 <body>
 	<img src="images/abraham-lincoln_1.jpeg" alt="Site Logo" class="sticky-logo">
 	<header>
-		<h2> American History</h1>
-		<h3>Events leading up to WW2</h3>
+
+	</header>
+
+	<!-- Standard Navbar-->
+	<nav>
+		<!-- Hamburger Menu icon-->
+		<div class="menu-icon"><a onclick="hamburgerMenu()">&#9776;</a></div>
+
+		<!-- List of Nav Links -->
+		<ul id="nav-links">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="Bill-of-rights.html">Bill Of Rights</a></li>
+			<li><a href="Manifest_Destiny.html" class="active">Manifest Destiny</a></li>
+			<li><a href="World_War_1.html">World War 1</a></li>
+			<li><a href="Great_Depression.html">Great Depression</a></li>
+			<li><a href="World_War_2.html">World War 2</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h1>World War 2</h1>
+		<img src="images/World_War_2.jpeg" alt="WW2" class="jumbotron">
+		<hr class="my-4">
+
+		<h2>Events leading up to WW2</h2>
 		<dl>
 			<dt> The Treaty of Versailles </dt>
 				<dd>After the events of World War 1, the blame of it all was placed on Germany through the treaty of Versailles. In the treaty there was a war guilt clause which blamed Germany for World War 1, and because of this treaty, Germany lost land and had militarty restrictions. </dd>
@@ -34,10 +56,6 @@
 			<dt> The failure of accommodation </dt>
 				<dd>Hitler tried to use his power along with his allies to spread his corrupt racial and ideological goals by dominance. Since many people didn't agree with his ideology the Allied Powers fought against the Axis Powers. </dd>
 		</dl>
-		
-	</header>
-
-	<main>
 
 	<div class="mobile">
 		<h2> Fun Facts about WW2</h2>
@@ -59,7 +77,7 @@
 			<li>Hitlers goals</li>
 		</ol>
 	</div>
-	</main>
+
 <div class=sources>
 	<h2>Sources</h2>
 		<a href="https://www.historyhit.com/causes-of-world-war-two-in-europe/"> History</a><br>
@@ -67,6 +85,8 @@
 		<a href="https://www.ebsco.com/research-starters/history/censorship-during-world-war-ii">Cencorship in WW2</a>
 </div>
 	<hr>
+	</main>
+
 	<footer>
 		<p>Company: American History</p>
 		<p>Worked on by: <a href="Jason_Resume.html">Jason Maggio</a></p>
