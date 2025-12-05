@@ -13,6 +13,7 @@ date: 12/5/2025
 }
 @media (prefers-reduced-motion: no-preference) {
   html {
+    ont-family: "Comic Sans MS";
     interpolate-size: allow-keywords;
   }
 }
@@ -358,5 +359,6 @@ nav li a {
   }
 
 }
+
 
 
