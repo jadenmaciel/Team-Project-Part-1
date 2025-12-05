@@ -58,9 +58,18 @@ article p { /* add spaces between large paragraphs */
   padding-bottom: 2%;
 }
 
+main ul {
+  padding-left: 2rem;
+}
+
 img {
   width: 100%;
   height: auto;
+}
+
+footer {
+  background-color: #C5BBBB;
+  padding: 5%;
 }
 
 .clearfix::after {
@@ -353,13 +362,17 @@ nav li a {
     opacity: .5;
   }
 
-  /* Custom Stylex #1: Move a main page image to the left and wrap text to the right */
+  /* Custom Style #1: Move a main page image to the left and wrap text to the right */
   .body-img {
     width: 50%;
     margin: 0;
     padding: 0 3%;
     float: left;
   }
+
+  /* Custom Style #2: */
+
+  /* Custom Style #3: */
 
   /* Desktop Grid Styles */
   .grid-container {
