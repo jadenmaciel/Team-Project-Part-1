@@ -378,8 +378,16 @@ nav li a {
   .grid-container {
     grid-template-columns: auto auto auto;
   }
-
+.portfolio-img { /* for Zachs Portfolio image */
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
 }
+  
+}
+
 
 
 
