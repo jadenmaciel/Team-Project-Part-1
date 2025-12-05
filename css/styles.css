@@ -63,6 +63,16 @@ img {
   height: auto;
 }
 
+/* Mobile-first */
+.mobile {
+  display: block; /* show mobile content on phones */
+}
+
+#Tablet-desktop {
+  display: none; /* hide table on phones */
+}
+
+
 /* Sticky Logo */
 .sticky-logo {
   position: fixed;
@@ -252,6 +262,10 @@ nav li a {
     display: block;
   }
 
+#Tablet-desktop {
+  display: block;
+}
+  
   .body-img {
     width: 80%;
     margin: auto;
@@ -308,6 +322,10 @@ nav li a {
     display: block;
   }
 
+#Tablet-desktop {
+  display: block;
+}
+  
   nav li:hover {
     background-color: #A0936f;
   }
@@ -333,3 +351,4 @@ nav li a {
   }
 
 }
+
