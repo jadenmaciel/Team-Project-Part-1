@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Main Styles */
 main {
-  background-color: #E0D3AF;
+  background-color: #E0D3BF;
   padding: 2%;
 }
 
@@ -54,7 +54,7 @@ h1 {
   text-align: center;
 }
 
-p {
+article p { /* add spaces between large paragraphs */
   padding-bottom: 2%;
 }
 
@@ -77,7 +77,7 @@ img {
 
 /* Nav Styles */
 nav {
-  background-color: slategray;
+  background-color: #5A5555;
 }
 
 nav ul {
@@ -162,6 +162,36 @@ nav li a {
     display: block;
   }
 
+  .body-img {
+    width: 80%;
+    margin: auto;
+  }
+
+  /* Tablet Nav Styles */
+  .menu-icon {
+    display: none;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 0.5em 0;
+    width: 100%;
+    max-width: 17%;
+    text-align: center;
+  }
+
+  nav li a {
+    padding: 0;
+    font-weight: bold;
+    color: #f6eee4;
+  }
+
   /* Tablet Grid Styles */
   .grid-container {
     grid-template-columns: auto auto;
@@ -175,6 +205,24 @@ nav li a {
   }
   .tablet-desktop {
     display: block;
+  }
+
+  nav li:hover {
+    background-color: #A0936f;
+    a {
+      color: #5A5555 !important;
+    }
+  }
+
+  nav li:active {
+    opacity: .5;
+  }
+
+  .body-img {
+    width: 50%;
+    margin: 0;
+    padding: 0 3%;
+    float: left;
   }
 
   /* Tablet Grid Styles */
