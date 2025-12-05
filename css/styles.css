@@ -85,6 +85,14 @@ img {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Table Caption Styles for Great Depression Table */
+#Tablet-desktop table caption {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
 /* Social Media Icons */
 .social-icons {
   text-align: center;
@@ -351,4 +359,5 @@ nav li a {
   }
 
 }
+
 
