@@ -76,7 +76,7 @@ img {
 }
 
 /* Nav Styles */
-nav {
+nav:hover {
   background-color: #5A5555;
 }
 
@@ -229,4 +229,5 @@ nav li a {
   .grid-container {
     grid-template-columns: auto auto auto;
   }
+
 }
