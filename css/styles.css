@@ -379,7 +379,7 @@ nav li a {
     grid-template-columns: auto auto auto;
   }
 .portfolio-img { /* for Zachs Portfolio image */
-  max-width: 500px;
+  max-width: 250px;
   height: auto;
   display: block;
   margin: 0 auto;
@@ -387,6 +387,7 @@ nav li a {
 }
   
 }
+
 
 
 
