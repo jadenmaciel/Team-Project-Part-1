@@ -26,33 +26,12 @@ File Name: Jaden_Portfolio.html
 	<!-- Font Import -->
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-	<style>
-		/* Basic Typography */
-		body {
-			font-family: Arial, sans-serif;
-			line-height: 1.5;
-		}
 
-		h1 {
-			font-size: 2rem;
-		}
-
-		h2 {
-			font-size: 1.5rem;
-			margin-top: 1.5rem;
-		}
-
-		h3 {
-			font-size: 1.2rem;
-		}
-	</style>
 </head>
 <body>
 	<img src="images/abraham-lincoln_1.jpeg" alt="Site Logo" class="sticky-logo">
 
-	<header>
-
-	</header>
+	<header></header>
 
 	<!-- Standard Navbar-->
 	<nav>
@@ -71,15 +50,17 @@ File Name: Jaden_Portfolio.html
 	</nav>
 
 	<!-- Hero/Header Section: Introduction with headshot -->
-	<section class="container mt-5 pt-5">
+	<section class="container">
 		<div class="row">
-			<div class="col-md-4 text-center mb-4">
+			<div class="col-md-4">
 				<!-- Bootstrap 1: Image utilities (img-fluid for responsiveness, rounded for styling) -->
 				<img src="images/jaden-headshot.jpeg" alt="Jaden Maciel-Shapiro headshot" class="img-fluid rounded" style="max-width: 250px;">
 			</div>
 			<div class="col-md-8">
 				<h1>Jaden Maciel-Shapiro</h1>
-				<p>Cybersecurity Professional | Security Analyst</p>
+				<p>Email: <a href="mailto:jadenmacielshapiro@gmail.com">jadenmacielshapiro@gmail.com</a></p>
+				<p>Phone: <a href="tel:7024038342">(702) 403-8342</a></p>
+				<p><strong>Cybersecurity Professional | Security Analyst</strong></p>
 				<p>Security Monitoring, KYC/AML and AWS Cloud Guardrails</p>
 				<p>Helping protect financial and government-aligned systems from real-world threats</p>
 			</div>
@@ -88,66 +69,132 @@ File Name: Jaden_Portfolio.html
 
 	<main class="container my-4">
 
-		<!-- About Me Section: Professional background -->
-		<section id="about" class="mb-4">
-			<h2>About Me</h2>
-			<p>I'm an early-career cybersecurity professional working in FinTech while earning my B.S. in Cybersecurity (GPA 3.87) with a Computer Science minor at Southern Utah University.</p>
-			<p>In my role as an ISV Support Specialist at Buzz Financial / ExpiTrans, I help software partners integrate safely with our payments platform, review KYC/AML documentation under FinCEN/FINTRAC/BSA guidelines, and maintain audit-ready records.</p>
-			<p>I also contribute to a multi-tenant shipping microservice (Python/FastAPI, Docker, AWS/GCP) integrated with the Troute payment gateway, where I work with secure patterns like JWT/HMAC validation, tenant scoping, and containerized services designed for future SIEM visibility.</p>
-			<p>My passion lies in building secure, scalable systems that protect sensitive financial data while maintaining compliance with regulatory standards. I'm constantly learning and staying current with the latest security threats and defense mechanisms.</p>
+		<!-- Summary Section -->
+		<section id="summary">
+			<h2>Summary</h2>
+			<ul>
+				<li><strong>Early-Career Cybersecurity Professional</strong> | Cloud/SOC-Focused Student with FinTech Experience</li>
+				<li>Experience in KYC/AML review and fraud-risk escalation within regulated FinTech, maintaining audit-ready records and a strong compliance mindset.</li>
+				<li>Hands-on cloud security work with AWS guardrails (IAM least privilege, MFA, CloudTrail, Config, GuardDuty, SNS) to improve logging, detection, and incident response readiness.</li>
+				<li>Secure design and implementation of multi-tenant microservices (Python/FastAPI, Docker, AWS/GCP) using JWT, HMAC, and tenant isolation to protect data and API integrations.</li>
+				<li>Strong communication and customer-facing experience from ISV onboarding, training, and troubleshooting, translating technical security concepts for non-technical stakeholders.</li>
+			</ul>
 		</section>
 
 		<!-- Skills/Experience Section: Unordered list with class="mobile" -->
-		<section id="skills" class="mb-4">
+		<section id="skills" class="mobile">
 			<h2>Technical Skills & Expertise</h2>
 			<div class="row">
 				<div class="col-md-6">
-					<h3>Core Technologies</h3>
+					<h3>Security & Cloud</h3>
 					<ul class="mobile">
-						<li>Python & FastAPI</li>
-						<li>Docker & Containerization</li>
-						<li>AWS & GCP Cloud Services</li>
-						<li>Security Monitoring & SIEM</li>
-						<li>JWT/HMAC Authentication</li>
-						<li>KYC/AML Compliance</li>
-						<li>FinCEN/FINTRAC/BSA Guidelines</li>
-						<li>Multi-tenant Architecture</li>
+						<li>Web Application Security</li>
+						<li>AWS</li>
+						<li>Cloud Computing</li>
+						<li>Cybersecurity Monitoring</li>
+						<li>Integration and Optimization</li>
 					</ul>
 				</div>
 				<div class="col-md-6">
-					<h3>Security Domains</h3>
+					<h3>Programming & Platforms</h3>
 					<ul class="mobile">
-						<li>Cloud Security & Guardrails</li>
-						<li>Payment Gateway Security</li>
-						<li>Regulatory Compliance</li>
-						<li>Audit Trail Management</li>
-						<li>Threat Detection & Response</li>
+						<li>Python</li>
+						<li>Linux Systems</li>
+						<li>Docker</li>
+						<li>Next.js</li>
+						<li>React</li>
+						<li>FastAPI</li>
+						<li>Stripe API</li>
+						<li>Supabase/PostgreSQL</li>
+						<li>Jupyter</li>
 					</ul>
 				</div>
 			</div>
 		</section>
 
-		<!-- Education/Timeline Section: Ordered list with class="mobile" -->
-		<section id="education" class="mb-4">
-			<h2>Education & Career Timeline</h2>
-			<ol class="mobile">
+		<!-- Education Section: Ordered list with class="mobile" -->
+		<section id="education" class="tablet-desktop">
+			<h2>Education</h2>
+			<ol class="tablet-desktop">
 				<li>
-					<strong>Current:</strong> B.S. in Cybersecurity (GPA 3.87) with Computer Science minor<br>
-					<em>Southern Utah University</em>
+					<strong>B.S., Cybersecurity; minor, Computer Science</strong> - Expected Apr. 2027<br>
+					Southern Utah University, UT<br>
+					<em>Dean's List (Top 10% of All Students)</em>
 				</li>
 				<li>
-					<strong>Current Position:</strong> ISV Support Specialist<br>
-					<em>Buzz Financial / ExpiTrans</em><br>
-					Security Monitoring, KYC/AML, AWS Cloud Guardrails
-				</li>
-				<li>
-					<strong>Key Achievement:</strong> Developed secure multi-tenant shipping microservice<br>
-					<em>Technologies:</em> Python/FastAPI, Docker, AWS/GCP, Troute payment gateway integration
-				</li>
-				<li>
-					<strong>Focus Areas:</strong> Financial systems security, regulatory compliance, cloud infrastructure protection
+					<strong>A.S., Information Technology</strong> - Expected Apr. 2026<br>
+					Southern Utah University, UT
 				</li>
 			</ol>
+		</section>
+
+		<!-- Relevant Experience Section -->
+		<section id="experience">
+			<h2>Relevant Experience</h2>
+			<h3>Software Developer / Integrated Software Vendor Support Specialist</h3>
+			<p><em>Sep. 2025 – Present | Buzz Financial / ExpiTrans | St. George, UT</em></p>
+			<ul>
+				<li>Serve as primary technical contact for ISV partners, leading secure onboarding, training, and integration support while managing relationships and aligning solutions to partner goals.</li>
+				<li>Review KYC/AML documentation for compliance (FinCEN/FINTRAC/BSA), flag anomalies to Fraud/Risk teams, and maintain audit-ready records as part of broader risk controls.</li>
+				<li>Design and deliver secure software and system improvements—especially a multi-tenant shipping microservice (Python/FastAPI, Docker, AWS/GCP) with JWT/HMAC-based authentication, tenant-scoped authorization, and hardened containers to prevent cross-tenant data exposure.</li>
+				<li>Enhance observability and incident readiness by improving logging for partner and microservice activity to support future SIEM ingestion, reporting, and faster troubleshooting.</li>
+			</ul>
+		</section>
+
+		<!-- Projects Section -->
+		<section id="projects">
+			<h2>Projects</h2>
+
+			<h3>DevSecOps Student Engineer</h3>
+			<p><em>Sep. 2025 - Present | Secure Multi-Tenant Shipping Microservice (Python/FastAPI, Docker, AWS/GCP)</em></p>
+			<ul>
+				<li>Implemented JWT validation, API key workflows, and tenant-scoped middleware in a Python/FastAPI shipping microservice to enforce strict merchant isolation.</li>
+				<li>Added HMAC signature verification and constant-time comparisons to authenticate carrier webhooks (e.g., FedEx, USPS) and reduce spoofing risk.</li>
+				<li>Hardened Docker-based deployments by improving environment/secrets handling and service configuration within AWS/GCP.</li>
+				<li>Structured application logging to support auditability, anomaly detection, and potential SIEM ingestion during incident investigations.</li>
+			</ul>
+
+			<h3>Cloud Security Student Engineer</h3>
+			<p><em>Oct. 2025 - Nov. 2025 | AWS Cloud Guardrails Lab (IAM, Config, GuardDuty, CloudTrail, SNS)</em></p>
+			<ul>
+				<li>Deployed IAM least-privilege policies, enforced MFA, and enabled region-wide CloudTrail logging across an AWS sandbox account.</li>
+				<li>Configured AWS Config, GuardDuty, and SNS alerts to detect risky configurations and suspicious activity, documenting guardrails and mapping them to AWS Well-Architected security best practices.</li>
+			</ul>
+
+			<h3>Security Analyst (Project-Based)</h3>
+			<p><em>Sep. 2025 - Oct. 2025 | SOHO Security Assessment (Network/Endpoint Evaluation)</em></p>
+			<ul>
+				<li>Assessed a small office/home office network—including router, Wi-Fi, firewall, and endpoints—for weak encryption, exposed services, and poor segmentation.</li>
+				<li>Delivered an executive summary and technical report with risk-prioritized remediation, mirroring professional vulnerability assessment outputs.</li>
+			</ul>
+
+			<h3>SOC/IR Lab Analyst</h3>
+			<p><em>Sep. 2025 | DShield IDS Honeypot (Ubuntu, Python, Firewall Rules)</em></p>
+			<ul>
+				<li>Deployed a Linux-based DShield honeypot to capture scanning, brute-force attempts, and other hostile traffic on exposed services.</li>
+				<li>Parsed and trended logs to understand attack frequency, source regions, and recurring patterns, practicing SIEM-style triage and event categorization.</li>
+			</ul>
+
+			<h3>Security Researcher - Windows Hardening</h3>
+			<p><em>Jul. 2025 - Aug. 2025 | Windows Registry Hardening Playbook (System Administration & Policy Enforcement)</em></p>
+			<ul>
+				<li>Applied security-focused registry and Group Policy changes to disable insecure defaults, restrict USB usage, and tighten password/lockout settings on Windows systems.</li>
+				<li>Built a reusable hardening checklist to standardize Windows security baselines and reduce system attack surface.</li>
+			</ul>
+		</section>
+
+		<!-- Certifications Section -->
+		<section id="certifications">
+			<h2>Certifications</h2>
+			<ul>
+				<li>AWS Cloud Quest: Cloud Practitioner</li>
+				<li>Adaptive Leadership Certificate – Sigma Chi KTLW</li>
+				<li>HAZWOPER 40-Hour</li>
+				<li>MSHA</li>
+				<li>eRailSafe</li>
+				<li>BNSF Contractor Safety</li>
+				<li>American Red Cross Deep Water Lifeguard/CPR/AED</li>
+			</ul>
 		</section>
 
 	</main>
@@ -157,7 +204,7 @@ File Name: Jaden_Portfolio.html
 		<div class="container">
 			<p class="mb-1">
 				<strong>Contact:</strong>
-				<a href="mailto:jadenmacielshapiro1@gmail.com" class="text-light">jadenmacielshapiro1@gmail.com</a> |
+				<a href="mailto:jadenmacielshapiro@gmail.com" class="text-light">jadenmacielshapiro@gmail.com</a> |
 				<a href="tel:7024038342" class="text-light">(702) 403-8342</a>
 			</p>
 			<p class="mb-0"><small>Worked on by: Jaden Maciel-Shapiro</small></p>
