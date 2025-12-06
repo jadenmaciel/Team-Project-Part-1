@@ -373,11 +373,9 @@ section {
 }
 
   /* Custom Style #3: Drop cap to first paragraph */
-section p:first-of-type::first-letter {
-  font-size: 2em;
-  font-weight: bold;
-  float: left;
-  padding-right: 5px;
+#Tablet-desktop tbody tr:hover {
+  transform: scale(1.01);
+  transition: transform 0.2s ease;
 }
 
   /* Desktop Grid Styles */
@@ -394,6 +392,7 @@ section p:first-of-type::first-letter {
   }
   
 }
+
 
 
 
