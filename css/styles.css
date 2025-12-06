@@ -11,11 +11,6 @@ date: 12/5/2025
   margin: 0;
   padding: 0;
 }
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    interpolate-size: allow-keywords;
-  }
-}
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
@@ -378,13 +373,14 @@ nav li a {
   .grid-container {
     grid-template-columns: auto auto auto;
   }
-.portfolio-img { /* for Zachs Portfolio image */
-  max-width: 50px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 5px;
-}
+
+  .portfolio-img { /* for Zachs Portfolio image */
+    max-width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
   
 }
 
