@@ -372,7 +372,7 @@ nav li a {
     margin: 1rem 0;
   }
 
-  /* Custom Style #3: Drop cap to first paragraph */
+  /* Custom Style #3: Hover scaling effect on great depression table */
   #Tablet-desktop tbody tr:hover {
     transform: scale(1.01);
     transition: transform 0.2s ease;
@@ -382,16 +382,34 @@ nav li a {
   .grid-container {
     grid-template-columns: auto auto auto;
   }
-
-  .portfolio-img { /* for portfolio image */
+  
+/* for portfolio image */
+  .portfolio-img { 
     max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 5px;
   }
+
+/* Image Animation #2 */
+@keyframes fadeZoom {  /* Animation for Great Depression Image */
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.gd-img {   /* Apply animation to the image */
+  animation: fadeZoom 1.2s ease-out;
+}
+
   
 }
+
 
 
 
