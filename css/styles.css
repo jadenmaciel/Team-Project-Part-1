@@ -409,7 +409,7 @@ nav li a {
 
   
 }
-
+/* Image Animation #1*/
 .free bill of wright photo {
  opacity: 0;
 animation-name: fadeIn;
@@ -425,6 +425,7 @@ animation-fill-mode: forwards;
     opacity: 1; /* Ends completely visible */
   }
 }
+
 
 
 
