@@ -366,17 +366,17 @@ nav li a {
   }
 
   /* Custom Style #2: Left Border */
-section {
-  border-left: 4px solid #A0936f;
-  padding-left: 1rem;
-  margin-bottom: 2rem;
-}
+  section {
+    border-left: 4px solid #A0936f;
+    padding-left: 1rem;
+    margin: 1rem 0;
+  }
 
   /* Custom Style #3: Drop cap to first paragraph */
-#Tablet-desktop tbody tr:hover {
-  transform: scale(1.01);
-  transition: transform 0.2s ease;
-}
+  #Tablet-desktop tbody tr:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s ease;
+  }
 
   /* Desktop Grid Styles */
   .grid-container {
