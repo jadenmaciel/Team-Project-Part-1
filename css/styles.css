@@ -365,14 +365,20 @@ nav li a {
     float: left;
   }
 
-  /* Custom Style #2: */
+  /* Custom Style #2: Left Border */
 section {
   border-left: 4px solid #A0936f;
   padding-left: 1rem;
   margin-bottom: 2rem;
 }
 
-  /* Custom Style #3: */
+  /* Custom Style #3: Drop cap to first paragraph */
+section p:first-of-type::first-letter {
+  font-size: 2em;
+  font-weight: bold;
+  float: left;
+  padding-right: 5px;
+}
 
   /* Desktop Grid Styles */
   .grid-container {
@@ -380,7 +386,7 @@ section {
   }
 
   .portfolio-img { /* for portfolio image */
-    max-width: 50px;
+    max-width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -388,6 +394,7 @@ section {
   }
   
 }
+
 
 
 
